@@ -30,19 +30,19 @@ public class MainActivityTest {
         assertNotNull(view);
     }
 
-    @Test
-    public void inputPlaceHolderTest() {
-        View view = mainActivity.findViewById(R.id.emailInput);
-
-        assertNotNull(view);
-    }
-
-    @Test
-    public void saveButtonTest() {
-        View view = mainActivity.findViewById(R.id.saveButton);
-
-        assertNotNull(view);
-    }
+//    @Test
+//    public void inputPlaceHolderTest() {
+//        View view = mainActivity.findViewById(R.id.emailInput);
+//
+//        assertNotNull(view);
+//    }
+//
+//    @Test
+//    public void saveButtonTest() {
+//        View view = mainActivity.findViewById(R.id.saveButton);
+//
+//        assertNotNull(view);
+//    }
 
     @After
     public void tearDown() throws Exception {

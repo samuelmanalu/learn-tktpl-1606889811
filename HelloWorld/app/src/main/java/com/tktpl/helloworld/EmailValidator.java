@@ -4,6 +4,11 @@ import android.text.Editable;
 import android.text.TextWatcher;
 import java.util.regex.Pattern;
 
+/**
+ * Lab 2 - Email Chacker
+ * By Samuel - 1606889811
+ */
+
 public class EmailValidator implements TextWatcher {
 
     public static final Pattern EMAIL_PATTERN = Pattern.compile(
