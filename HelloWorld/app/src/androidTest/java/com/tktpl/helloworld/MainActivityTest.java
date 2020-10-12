@@ -23,12 +23,12 @@ public class MainActivityTest {
         mainActivity = mainActivityActivityTestRule.getActivity();
     }
 
-    @Test
-    public void helloWorldPlaceHolderTest() {
-        View view = mainActivity.findViewById(R.id.tvMainText);
-
-        assertNotNull(view);
-    }
+//    @Test
+//    public void helloWorldPlaceHolderTest() {
+//        View view = mainActivity.findViewById(R.id.tvMainText);
+//
+//        assertNotNull(view);
+//    }
 
 //    @Test
 //    public void inputPlaceHolderTest() {
