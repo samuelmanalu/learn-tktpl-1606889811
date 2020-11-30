@@ -1,6 +1,5 @@
-package com.tktpl.helloworld;
+package com.tktpl.helloworld.fragment;
 
-import android.app.Fragment;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -12,6 +11,10 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
+import com.tktpl.helloworld.R;
+import com.tktpl.helloworld.util.EmailValidator;
 
 public class EmailChackerFragment extends Fragment {
 
@@ -26,6 +29,7 @@ public class EmailChackerFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        super.onCreateView(inflater, container, savedInstanceState);
         View view = inflater.inflate(R.layout.fragment_email, container, false);
         resultTest = (EditText) view.findViewById(R.id.emailInput);
         mEmailValidator = new EmailValidator();

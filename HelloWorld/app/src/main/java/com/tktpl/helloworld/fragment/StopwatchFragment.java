@@ -1,6 +1,5 @@
-package com.tktpl.helloworld;
+package com.tktpl.helloworld.fragment;
 
-import android.app.Fragment;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
@@ -14,6 +13,9 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
+import com.tktpl.helloworld.R;
 
 public class StopwatchFragment extends Fragment {
 
@@ -34,6 +36,7 @@ public class StopwatchFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        super.onCreateView(inflater, container, savedInstanceState);
         View view = inflater.inflate(R.layout.fragment_stopwatch, container, false);
         timer = (TextView) view.findViewById(R.id.tvMainText);
         start = (Button) view.findViewById(R.id.btStart);

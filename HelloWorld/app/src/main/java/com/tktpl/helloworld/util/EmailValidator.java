@@ -1,4 +1,4 @@
-package com.tktpl.helloworld;
+package com.tktpl.helloworld.util;
 
 import android.text.Editable;
 import android.text.TextWatcher;

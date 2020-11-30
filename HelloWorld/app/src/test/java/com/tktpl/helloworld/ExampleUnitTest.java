@@ -1,5 +1,7 @@
 package com.tktpl.helloworld;
 
+import com.tktpl.helloworld.util.EmailValidator;
+
 import org.junit.Test;
 
 import static org.junit.Assert.*;
